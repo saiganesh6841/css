@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://c.wallhere.com/photos/92/d3/2560x1600_px_Cabin_nature_night_snow_winter-1001847.jpg!d);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container{
+            width: 30%;
+            height: 500px;
+            border: 2px solid lightblue;
+            margin-left: 35%;
+            margin-top: 140px;
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        input[type=text] {
+            font-size: 40px;
+            opacity: 0.3;
+            border-radius: 29px;
+            height: 70px;
+            margin-left: 20px;
+        }
+        input[type=password] {
+            font-size: 40px;
+            opacity: 0.3;
+            border-radius: 29px;
+            height: 70px;
+            margin-left: 20px;
+        }
+        label{
+            color: white;
+            font-size: 30px;
+            position: relative;
+            right: 100px;
+        }
+        .flex-row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        span{
+            color: white;
+            font-size: 30px;
+            padding-right: 15px;
+        }
+        button{
+            width: 500px;
+            height: 60px;
+            border-radius: 50px;
+            text-align: center;
+            margin-left: 50px;
+            font-size: 30px;
+        }
+        .reg{
+            font-size: 30px;
+            color: white;
+            margin-left: 75px;
+        }
+        input[type=checkbox] {
+            margin-left: -50px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="">
+            <input type="text" name="username" placeholder="username" >
+            <br><br><br>
+            <input type="password" name="password" placeholder="password" >
+            <br><br>
+            <div class="flex-row">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember</label>
+            <span>Forgot password?</span>
+            </div>
+            
+        </form>
+        <br><br>
+        <button>Login</button>
+        <br><br>
+        <div class="reg">Don't have an account? Register</div>
+    </div>
+    
+</body>
+</html>

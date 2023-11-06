@@ -1,0 +1,56 @@
+.img-round{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left: 15%;
+    margin-top: 35px;
+    
+    
+}
+.container{
+    display: flex;
+   
+}
+.left-align{
+    background-color: lightslategray;
+    width: 500px;
+    text-align: center;
+    
+    
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+span{
+    color:aqua;
+}
+.trainer{
+    font-size: 25px;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.set-copy{
+    font-size: 30px;
+}
+.sai-image{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 60%;
+}
+.developer{
+    font-size: 60px;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+.right-align{
+    background-color:white;
+    width: 100%;
+}

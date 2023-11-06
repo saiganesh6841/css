@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        img{
+            border-radius: 90%;
+            position: absolute;
+            left: 46%;
+            top: 55%;
+        }
+        .center{
+            /* margin-left: 40%;
+            margin-top: 20%; */
+        }
+        .mercury{
+            width: 150px;
+            height: 150px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-left: 45%;
+            margin-top: 25%;
+        }
+        .venus{
+            width: 250px;
+            height: 250px;
+            border: 2px solid white;
+            border-radius: 50%;
+            position: relative;
+            right: 50px;
+            bottom: 39px;
+        }
+        .earth{
+            width: 350px;
+            height: 350px;
+            border: 2px solid white;
+            border-radius: 50%;
+            position: relative;
+            right: 50px;
+            bottom: 39px;  
+        }
+        .mars{
+            width: 450px;
+            height: 450px;
+            border: 2px solid white;
+            border-radius: 50%;
+            position: relative;
+            right: 50px;
+            bottom: 39px;   
+        }
+        .jupiter{
+            width: 550px;
+            height: 550px;
+            border: 2px solid white;
+            border-radius: 50%;
+            position: relative;
+            right: 50px;
+            bottom: 39px;
+        }
+        .saturn{
+            width: 650px;
+            height: 650px;
+            border: 2px solid white;
+            border-radius: 50%;
+            position: relative;
+            right: 50px;
+            bottom: 39px;
+        }
+        .uranus{
+            width: 750px;
+            height: 750px;
+            border: 2px solid white;
+            border-radius: 50%;
+            position: relative;
+            right: 50px;
+            bottom: 39px;
+        }
+        .imgearth{
+            animation-name: rotate;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-duration: 4s;
+        }
+        @keyframes rotate {
+            0% {
+        transform: translateX(10px) rotate(0deg);
+    }
+    100% {
+        transform: translateX(100px) rotate(360deg);
+    }
+            /* 0% {
+        transform: translate(0) rotate(0deg);
+    }
+    100% {
+        transform: translate(44px) rotate(360deg);
+    } */
+            /* from{transform: translate(22px);}
+            to{transform: translate(44px);} */
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="sun"><img src="https://th.bing.com/th/id/OIP.zTqPlR3IHdbHhCKy8HXhngHaHV?w=157&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" width="100px"></div>
+        <div class="mercury">
+            <div class="venus">
+                <div class="earth"> <img src="https://th.bing.com/th/id/R.3e797811a42c04590b4c56a81dc57682?rik=V6goCmP9tVnsaQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-UrB3JBJFjKQ%2fTs9CRdT022I%2fAAAAAAAAAN4%2fO14b8yp6Q1M%2fs1600%2fearth.jpg&ehk=AQHcM84MDKMPf%2fW79TUOjOFTjBvmtiqnDPr0h%2f6dSCg%3d&risl=&pid=ImgRaw&r=0" alt="" width="60px" class="imgearth">
+                    <div class="mars">
+                        <div class="jupiter">
+                            <div class="saturn">
+                                <div class="uranus"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+    </div>
+</body>
+</html>
