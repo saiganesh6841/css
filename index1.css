@@ -20,6 +20,7 @@ div a{
     margin-top: 0%;
     width: 100%;
     margin-top: 0%;
+    z-index: 1;
 }
 .heading{
     display: inline-block;
@@ -49,6 +50,7 @@ div .mname{
     position: absolute;
     top: 50%;
     left: 50%;
+   
 }
 #project{
     font-size: 50px;
